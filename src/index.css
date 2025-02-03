@@ -84,11 +84,34 @@ ul {
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
-  margin: 2%;
-  padding: 1%;
+  margin: 4%;
+  margin-left: 20%;
+  padding: 3%;
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+  width: 20vw;
+  height: 20vw;
+}
+
+.ternary-image{
+  width: 100%;
+  height: 100%;
+}
+
+.hog-image{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;  
+}
+
+.hog-name{
+  padding: 10px;
+}
+
+.detail-list{
+  text-align: center;
+  transform: translate( -8%, 90%)
 }
 
 .minBackgroundSneak {
